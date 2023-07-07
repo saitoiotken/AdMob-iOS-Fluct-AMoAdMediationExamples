@@ -29,10 +29,8 @@ class ViewController: UIViewController {
     @IBAction func didTouchUpLoadAd(button: UIButton) {
         let request = GADRequest()
 
+        // 特別な設定はしない
         let setting = FSSRewardedVideoSetting.default
-        // UnityAdsだけ再生しない
-        setting.activation.isUnityAdsActivated = false
-        setting.isDebugMode = true
         let extra = GADMAdapterFluctExtras()
         extra.setting = setting
         request.register(extra)
