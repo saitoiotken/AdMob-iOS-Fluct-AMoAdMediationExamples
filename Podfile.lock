@@ -1,0 +1,100 @@
+PODS:
+  - AMoAd (6.1.12):
+    - ReachabilitySwift (~> 5.0.0)
+    - SnapKit (~> 5.6.0)
+  - FluctSDK (6.27.1)
+  - FluctSDK-MediationAdapter/AMoAd (6.27.1):
+    - FluctSDK (>= 6.14.0)
+    - ReachabilitySwift
+    - SnapKit
+  - Google-Mobile-Ads-SDK (10.7.0):
+    - GoogleAppMeasurement (< 11.0, >= 7.0)
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleAppMeasurement (10.11.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.11.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (10.11.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.11.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.11.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleMobileAdsMediationFluct (6.27.1):
+    - FluctSDK (>= 6.12.1)
+    - Google-Mobile-Ads-SDK (>= 9.8.0)
+  - GoogleUserMessagingPlatform (2.0.1)
+  - GoogleUtilities/AppDelegateSwizzler (7.11.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.11.1):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.11.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.11.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.11.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.11.1)"
+  - GoogleUtilities/Reachability (7.11.1):
+    - GoogleUtilities/Logger
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - PromisesObjC (2.2.0)
+  - ReachabilitySwift (5.0.0)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - AMoAd (= 6.1.12)
+  - FluctSDK-MediationAdapter/AMoAd (= 6.27.1)
+  - Google-Mobile-Ads-SDK (= 10.7.0)
+  - GoogleMobileAdsMediationFluct (= 6.27.1)
+
+SPEC REPOS:
+  trunk:
+    - AMoAd
+    - FluctSDK
+    - FluctSDK-MediationAdapter
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleMobileAdsMediationFluct
+    - GoogleUserMessagingPlatform
+    - GoogleUtilities
+    - nanopb
+    - PromisesObjC
+    - ReachabilitySwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  AMoAd: 6db930880a4fdd707105b88af8804654e3ef9497
+  FluctSDK: ac53639c73044f976a062f73a101c757c5437ecc
+  FluctSDK-MediationAdapter: 026d0ef11d7a925194015dd2faf795ea13b74787
+  Google-Mobile-Ads-SDK: 2b62c695321edc7827857ac19eaeab89b57f6862
+  GoogleAppMeasurement: d3dabccdb336fc0ae44b633c8abaa26559893cd9
+  GoogleMobileAdsMediationFluct: 97face4b9b0a4ab6b2c52f4dd73001070a9dfc93
+  GoogleUserMessagingPlatform: 5f8b30daf181805317b6b985bb51c1ff3beca054
+  GoogleUtilities: 9aa0ad5a7bc171f8bae016300bfcfa3fb8425749
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 3f85b8e6726d080768c4ea83bc2ed8856afaf14d
+
+COCOAPODS: 1.12.1
