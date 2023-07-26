@@ -3,7 +3,8 @@ AdMob->Fluct->AMoAdのサンプル実装です。
 
 ## Requirements
 - iOS 15.0+
-- Xcode 14.2
+- Xcode 14.3
+  - AMoAd 6.1.14
 
 ## Installation
 このサンプルには Podfile と Podfile.lock が含まれています。

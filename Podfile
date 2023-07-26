@@ -8,9 +8,9 @@ target 'SampleApp' do
   # Pods for SampleApp
 
   pod 'Google-Mobile-Ads-SDK', '10.7.0'
-  pod 'GoogleMobileAdsMediationFluct', '6.27.1'
-  pod 'AMoAd', '6.1.12'
-  pod 'FluctSDK-MediationAdapter/AMoAd', '6.27.1'
+  pod 'GoogleMobileAdsMediationFluct', '6.27.2'
+  pod 'AMoAd', '6.1.14'
+  pod 'FluctSDK-MediationAdapter/AMoAd', '6.27.2'
 
   target 'SampleAppTests' do
     inherit! :search_paths
@@ -21,4 +21,12 @@ target 'SampleApp' do
     # Pods for testing
   end
 
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '11.0'
+    end
+  end
 end
